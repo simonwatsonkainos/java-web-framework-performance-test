@@ -1,0 +1,13 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 3000
+  adminConnectors:
+    - type: http
+      port: 3001
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  user: orders_performance_test
+  password: orders_performance_test
+  url: jdbc:mysql://127.0.0.1:3306/orders_performance_test

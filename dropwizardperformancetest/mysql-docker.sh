@@ -1,0 +1,1 @@
+docker run --rm -p 3306:3306 --name performance-test-mysql -e MYSQL_ROOT_PASSWORD=root-password -e MYSQL_DATABASE=orders_performance_test -e MYSQL_USER=orders_performance_test -e MYSQL_PASSWORD=orders_performance_test -d mysql:8

@@ -1,0 +1,12 @@
+server:
+  port: 3000
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/orders_performance_test
+    username: orders_performance_test
+    password: orders_performance_test
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
